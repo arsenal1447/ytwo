@@ -77,10 +77,10 @@ use yii\widgets\ActiveForm;
 
 <script>
     var test="<?= Yii::$app->urlManager->createUrl('index.php/admin/index/users')?>";
-    var thumb="<?= Yii::$app->urlManager->createUrl('admin/index/thumb')?>";
-    var sendmsg="<?= Yii::$app->urlManager->createUrl('admin/msg/sendmsg')?>";
-    var msg="<?= Yii::$app->urlManager->createUrl('admin/msg/msg')?>";
-    var mysend="<?= Yii::$app->urlManager->createUrl('admin/msg/mysend')?>";
+    var thumb="<?= Yii::$app->urlManager->createUrl('index.php/admin/index/thumb')?>";
+    var sendmsg="<?= Yii::$app->urlManager->createUrl('index.php/admin/msg/sendmsg')?>";
+    var msg="<?= Yii::$app->urlManager->createUrl('index.php/admin/msg/msg')?>";
+    var mysend="<?= Yii::$app->urlManager->createUrl('index.php/admin/msg/mysend')?>";
 
     BUI.use('common/main',function(){
         var config = [
