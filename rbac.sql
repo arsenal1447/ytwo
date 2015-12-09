@@ -13,6 +13,7 @@ File Encoding         : 65001
 Date: 2015-08-13 16:24:37
 */
 
+/***test for merge sql***/
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
